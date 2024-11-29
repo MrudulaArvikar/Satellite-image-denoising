@@ -9,10 +9,6 @@ This project implements a Denoising Autoencoder to remove noise from satellite i
 - **Training and Evaluation**: Train the model on noisy and clean image pairs and evaluate the quality using PSNR.
 - **Utilities for Image Patching**: Includes scripts to split large images into manageable patches for processing.
 
-## Project Source
-
-This project is based entirely on the work available at [Satellite Image Denoising GitHub Repository](#). Full credit goes to the repository's author for the code and methodology.
-
 ## Usage
 
 ### Prerequisites
@@ -26,13 +22,13 @@ This project is based entirely on the work available at [Satellite Image Denoisi
 
 Install the dependencies:
 
-##Dataset
+## Dataset
 Noisy and clean satellite images are required in separate directories:
 
 /path/to/noisy - Noisy images
 /path/to/clean - Clean images
 
-##Steps to Run
+## Steps to Run
 1. Training the Model
 Update the paths to the noisy and clean image folders in the script.
 Train the denoising autoencoder by running:
@@ -54,8 +50,10 @@ bash
 
 python patching.py
 Denoise each patch and combine them to reconstruct the full image.
-Credits
 
-The code and methodology for this project are credited entirely to Shantanu Shrivastava's Satellite Image Denoising Repository.
+
+## Project Source
+
+This project is based entirely on the work available at [Satellite Image Denoising GitHub Repository](#). Full credit goes to the repository's author for the code and methodology.
 
 
